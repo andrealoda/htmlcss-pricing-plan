@@ -1,0 +1,14 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    max-width: 900px;
+    border-left: 1px dashed red;
+    border-right: 1px dashed red;
+}
+
