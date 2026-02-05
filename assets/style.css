@@ -28,19 +28,17 @@ header {
 
 .text {
     /* border: 1px dashed red; */
-
 }
 
 .payoff {
     color: grey;
     font-size: smaller;
     /* border: 1px dashed red; */
-
 }
 
-.btns {
-    display: flex;
-    justify-content: flex-end;
+.togglers {
+    flex-grow: 1;
+    text-align: end;
 }
 
 .toggle {
@@ -49,9 +47,6 @@ header {
     color: grey;
     font-size: medium;
     margin-right: 15px;
-    display: flex;
-    align-items: center;
-    /* border: 1px dashed red; */
 }
 
 .bi {
@@ -59,14 +54,11 @@ header {
     margin-left: 5px;
 }
 
-
 .col {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 15px;
     padding: 0 10px;
-
 }
 
 .card {
@@ -116,9 +108,9 @@ header {
     margin-bottom: 30px;
 }
 
-.features>li {
+.features {
     display: flex;
-    align-items: center;
+    /* align-items: start; */
     gap: 10px;
 }
 
@@ -133,4 +125,4 @@ header {
     .btn {
         color: #6500ff;
     }
-}
+}                     
