@@ -77,6 +77,10 @@ header {
     color: black;
     background-color: white;
     box-shadow: 0 0 10px 0 lightgrey;
+
+    p {
+        margin-bottom: 10px;
+    }
 }
 
 .centrali {
@@ -89,11 +93,13 @@ header {
 
 .choose {
     text-decoration: none;
-    background-color: blue;
+    background-color: #6500ff;
     border-radius: 10px;
-    width: 60%;
+    padding: 10px;
+    width: 95%;
     height: 10%;
     text-align: center;
+    margin: 10px 0;
 }
 
 .btn {
@@ -107,10 +113,24 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    margin-bottom: 30px;
 }
 
 .features>li {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.inverted {
+    background-color: #6500ff;
+    color: white;
+
+    .choose {
+        background-color: white;
+    }
+
+    .btn {
+        color: #6500ff;
+    }
 }
