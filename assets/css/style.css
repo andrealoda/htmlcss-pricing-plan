@@ -13,6 +13,7 @@ body {
 .container {
     max-width: 900px;
     margin: 0 auto;
+    padding: 1rem ;
 }
 
 /* #region Header */
@@ -23,7 +24,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 3rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.title-box {
+    margin-bottom: 1rem;
 }
 
 .payoff {
@@ -69,7 +74,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    padding: 0 10px;
 }
 
 .card {
@@ -100,8 +104,8 @@ header {
     border-radius: 10px;
     padding: 10px;
     width: 95%;
-    height: 10%;
     text-align: center;
+    font-size: small;
     margin: 10px 0;
 }
 
@@ -116,7 +120,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 }
 
 .features {
