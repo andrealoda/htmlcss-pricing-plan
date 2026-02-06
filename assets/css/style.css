@@ -13,48 +13,59 @@ body {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    /* border-left: 1px dashed red;
-    border-right: 1px dashed red; */
 }
 
+/* #region Header */
+
 header {
-    
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border: 1px dashed red; */
-    margin: 0 10px 10px;
-}
-
-.text {
-    /* border: 1px dashed red; */
+    align-items: flex-start;
+    margin: 3rem 1rem;
 }
 
 .payoff {
     color: grey;
-    font-size: smaller;
-    /* border: 1px dashed red; */
+    font-size: 12px;
 }
 
 .togglers {
-    flex-grow: 1;
-    text-align: end;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 .toggle {
     background-color: transparent;
     border: none;
     color: grey;
-    font-size: medium;
-    margin-right: 15px;
+    font-size: 14px;
+    /* align-items: flex-start; */
 }
 
-.bi {
+.bi-toggle-on,
+.bi-toggle-off {
     font-size: x-large;
     margin-left: 5px;
 }
 
-.col {
+.bi-toggle-on {
+    color: black;
+    margin-right: 1rem;
+}
+
+.bi-toggle-off {
+    color: grey;
+}
+
+/* #endregion */
+
+/* #region Main */
+
+
+.row {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -125,4 +136,6 @@ header {
     .btn {
         color: #6500ff;
     }
-}                     
+}
+
+/* #endregion */
