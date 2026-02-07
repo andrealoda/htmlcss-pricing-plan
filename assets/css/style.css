@@ -1,3 +1,5 @@
+/* #region Page Setting */
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 * {
@@ -15,6 +17,7 @@ body {
     margin: 0 auto;
     padding: 1rem ;
 }
+/* #endregion */
 
 /* #region Header */
 
@@ -84,56 +87,85 @@ header {
     color: black;
     background-color: white;
     box-shadow: 0 0 10px 0 lightgrey;
+}
 
-    p {
-        margin-bottom: 10px;
-    }
+.sub-h2 {
+    font-size: small;
+    color: grey;
+    margin-bottom: 1rem;
 }
 
 .centrali {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    text-align: center;
 }
 
-.choose {
-    text-decoration: none;
+.c-1 {
+    margin-bottom: 1rem;
+}
+
+.c-1-s1  {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.c-1-s2 {
+    color: grey;
+}
+
+.c-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: small;
+    
+}
+
+.c-2-1 {
+    color: black;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.c-3 {
     background-color: #6500ff;
     border-radius: 10px;
-    padding: 10px;
-    width: 95%;
+    padding: 1rem;
+    width: 100%;
     text-align: center;
     font-size: small;
-    margin: 10px 0;
+    /* margin-bottom: 1rem; */
 }
 
 .btn {
     color: white;
     text-decoration: none;
-    align-items: center;
 }
 
 .features {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 1.5rem;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
-.features {
-    display: flex;
-    /* align-items: start; */
-    gap: 10px;
+.features .bi {
+    margin-right: 5px;
 }
 
 .inverted {
     background-color: #6500ff;
     color: white;
 
-    .choose {
+    .sub-h2, .c-1-s2 {
+        color: white;
+    }
+
+    .c-3 {
         background-color: white;
     }
 
